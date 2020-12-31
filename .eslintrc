@@ -1,0 +1,22 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2020
+  },
+  "extends": ["eslint-config-airbnb", "eslint-config-prettier"],
+
+  "plugins": ["prettier"],
+
+  "rules": {
+    "prettier/prettier": "error",
+    "no-var": "error",
+    "semi": "error",
+    "indent": "error",
+    "no-multi-spaces": "error",
+    "space-in-parens": "error",
+    "no-multiple-empty-lines": "error",
+    "prefer-const": "error",
+    "no-use-before-define": "error",
+    "no-undef": "off",
+    "no-unused-vars": "error"
+  }
+}
